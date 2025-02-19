@@ -1,0 +1,58 @@
+.signature-container {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    display: flex;
+    align-items: center; /* Align text & logo */
+    gap: 15px;
+    padding: 10px;
+    background: #f8f8f8;
+    border-left: 4px solid #0073e6;
+}
+
+.sig-des-part {
+    flex: 1; /* Ensures it takes available space */
+    border-right: 2px solid #0073e6;
+    padding-right: 15px;
+}
+
+.sig-info h1 {
+    margin: 0;
+    font-size: 18px;
+    color: lightslategray;
+}
+
+.sig-info h2 {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #3498db;
+    font-weight: 600;
+}
+
+.sig-info h3 {
+    margin: 4px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #566573;
+}
+
+.sig-contact {
+    margin-top: 15px;
+}
+
+.sig-contact p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.sig-logo-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120px;
+}
+
+.sig-logo-part img {
+    width: 100px; /* Adjust logo size */
+    height: auto;
+    display: block;
+}
